@@ -33,6 +33,12 @@ h2{font-size:clamp(38px,4vw,54px)}
 .yarn-circle{position:absolute;border-radius:50%;background:var(--soft)}
 .circle-one{width:310px;height:310px;top:20px;right:20px}
 .circle-two{width:170px;height:170px;bottom:18px;left:5px;background:#dfc6bc}
+.photo-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
 .photo-placeholder{position:relative;width:70%;height:76%;background:#eee1d8;border:10px solid var(--paper);box-shadow:0 18px 50px rgba(70,50,40,.13);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:#8b7770}
 .photo-placeholder span{font-family:"Playfair Display",serif;font-size:24px}.photo-placeholder small{max-width:180px;margin-top:8px}
 .categories{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--paper)}
