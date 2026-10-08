@@ -10,6 +10,7 @@ a{color:inherit;text-decoration:none}
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center;
     display: block;
 }
 .site-header{height:78px;padding:0 6%;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);background:rgba(251,247,241,.94);position:sticky;top:0;z-index:10;backdrop-filter:blur(10px)}
