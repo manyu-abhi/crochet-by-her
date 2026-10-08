@@ -6,6 +6,12 @@
 html{scroll-behavior:smooth}
 body{font-family:"DM Sans",sans-serif;color:var(--ink);background:var(--cream);line-height:1.6}
 a{color:inherit;text-decoration:none}
+.photo-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
 .site-header{height:78px;padding:0 6%;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);background:rgba(251,247,241,.94);position:sticky;top:0;z-index:10;backdrop-filter:blur(10px)}
 .logo{font-family:"Playfair Display",serif;font-size:25px;font-weight:600}
 .logo span{font-style:italic;font-weight:500}
